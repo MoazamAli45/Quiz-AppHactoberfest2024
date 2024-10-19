@@ -7,3 +7,8 @@
 - **Role**: Contributor
 - **Institution**: DTU
 - **GitHub Link**: https://github.com/siddharthgoel94
+
+- **Name**: Poshith Nandyala
+- **Role**: Contributor
+- **Institution**: IIIT Lucknow, India
+- **GitHub Link**: https://github.com/poshithNandyala

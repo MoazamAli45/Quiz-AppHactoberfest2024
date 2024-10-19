@@ -1,125 +1,158 @@
 /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Darker text color for readability */
+  line-height: 1.6;
+}
+
+/* Navigation Button */
 .nav-button {
-  background: #007bff; /* Blue background for buttons */
+  background: linear-gradient(135deg, #007bff, #00aaff); /* Gradient blue background */
   color: white;
-  padding: 0.7rem 1.2rem; /* Padding for buttons */
+  padding: 0.7rem 1.2rem;
   border: none;
-  border-radius: 8px; /* Rounded corners */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Bold text */
-  transition: background 0.3s ease, transform 0.3s ease; /* Transition effects */
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .nav-button:hover {
-  background: #0056b3; /* Darker blue on hover */
-  transform: translateY(-2px); /* Lift effect on hover */
+  background: linear-gradient(135deg, #0056b3, #007bff); /* Darker blue on hover */
+  transform: translateY(-2px);
 }
 
+/* Heading Styling */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  text-align: center; /* Center-align the heading */
-  font-family: 'Arial', sans-serif; /* Change font for heading */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for text */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Box Styling */
 .box {
-  max-width: 600px; /* Centering container */
-  margin: 2rem auto;
-  padding: 2rem; /* Increased padding for better spacing */
-  background: white;
-  border-radius: 15px; /* More rounded corners */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow */
-  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  max-width: 700px; /* Increased max-width for better layout */
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: 20px; /* Larger rounded corners */
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Deeper shadow for elevation */
+  border: 1px solid rgba(0, 0, 0, 0.05); /* Light border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.box:hover {
+  transform: translateY(-10px); /* Floating effect */
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Form Styling */
 form {
   display: flex;
   flex-direction: column;
-}
-
-.row {
-  margin-bottom: 1.5rem; /* Increased spacing between rows */
+  gap: 1.5rem; /* Space between form fields */
 }
 
 label {
-  margin-bottom: 0.5rem;
-  font-weight: bold;
+  margin: 0.5rem;
+  font-weight: bolder;
+  font-size: 1.6rem; /* Larger font size for labels */
+
 }
 
+/* Input Fields and Textarea */
 input[type="text"],
 input[type="email"],
 textarea {
-  border: 2px solid #007bff; /* Blue border */
-  border-radius: 8px; /* More rounded corners */
-  padding: 0.8rem; /* Increased padding */
-  margin-bottom: 1rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-  width: calc(100% - 10px); /* Increase width to fit the panel */
+  border: 2px solid #007bff;
+  border-radius: 12px; /* Smoother rounded corners */
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Full-width input fields */
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: #00aaff; /* Focus border color */
-  box-shadow: 0 0 5px rgba(0, 169, 255, 0.5); /* Subtle glow effect on focus */
+  border-color: #00aaff;
+  box-shadow: 0 0 10px rgba(0, 169, 255, 0.5); /* Glow effect on focus */
   outline: none; /* Remove default outline */
 }
 
-button {
-  background: #007bff; /* Blue background */
+/* Button Styling */
+main button {
+  background: linear-gradient(135deg, #007bff, #00aaff);
   color: white;
-  padding: 0.8rem;
+  padding: 0.9rem;
   border: none;
-  border-radius: 8px; /* More rounded corners */
+  border-radius: 12px;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Added shadow transition */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  margin:auto
 }
 
 button:hover {
-  background: #0056b3; /* Darker blue on hover */
-  transform: translateY(-3px); /* Lift effect */
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  background: linear-gradient(135deg, #0056b3, #007bff);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 button:active {
-  transform: translateY(0); /* Reset lift on click */
+  transform: translateY(0); /* Reset transform on click */
 }
 
-/* Dark Mode Styles */
+/* Dark Mode Styling */
 body.dark-mode {
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text for readability */
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 body.dark-mode .navbar {
-  background: #333; /* Dark background for navbar */
+  background: #333;
 }
 
 body.dark-mode .box {
-  background: #1e1e1e; /* Dark card background */
-  border: 1px solid #444; /* Darker border */
+  background: #1e1e1e;
+  border: 1px solid #444;
+}
+
+body.dark-mode h1 {
+  color: #e0e0e0; /* Light text color for heading in dark mode */
 }
 
 body.dark-mode input[type="text"],
 body.dark-mode input[type="email"],
 body.dark-mode textarea {
-  border: 2px solid #00aaff; /* Light blue border for inputs */
+  background-color: #333;
+  color: white;
+  border: 2px solid #00aaff;
 }
 
 body.dark-mode input[type="text"]:focus,
 body.dark-mode input[type="email"]:focus,
 body.dark-mode textarea:focus {
-  border-color: #00bfff; /* Brighter focus border */
-  box-shadow: 0 0 5px rgba(0, 169, 255, 0.5); /* Subtle glow effect on focus */
+  border-color: #00bfff;
+  box-shadow: 0 0 10px rgba(0, 169, 255, 0.7);
 }
 
 body.dark-mode button {
-  background: #0056b3; /* Darker blue for buttons */
+  background: linear-gradient(135deg, #0056b3, #007bff);
 }
 
 body.dark-mode button:hover {
-  background: #007bff; /* Brighter blue on hover */
+  background: linear-gradient(135deg, #007bff, #00aaff);
 }

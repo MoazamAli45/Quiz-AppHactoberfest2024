@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="newstyle.css">
     <link rel="stylesheet" href="src/navbar.css" />
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/footer.css">
+      <link rel="stylesheet" href="newstyle.css">
     
     <title>Contact Us</title>
 </head>
@@ -24,23 +24,24 @@
     <main>
         <div class="box">
             <h1>Get in Touch</h1>
-            <form id="contact-form">
-                <div class="row">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" required>
-                </div>
-                <div class="row">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
-                </div>
-                <div class="row">
-                    <label for="project">Project:</label>
-                    <textarea id="project" rows="4" required></textarea>
-                </div>
-                <div class="row">
-                    <button type="submit" class="btn">Send Message</button>
-                </div>
-            </form>
+    <form id="contact-form">
+        <div class="row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="row">
+            <label for="project">Project:</label>
+            <textarea id="project" rows="4" placeholder="Describe your project" required></textarea>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+    </form>
+
             <div id="response-message"></div>
         </div>
     </main>
