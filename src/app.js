@@ -60,8 +60,8 @@ const loadQues = function () {
         <label for="option4">${data.d}</label>
       </div>
       <div class="submitRow">
+      <button class="btn2 submit2">Prev</button>
         <button class="btn submit">Submit</button>
-        <button class="btn2 submit2">Prev</button>
       </div>
       <p id="error-message" style="color: red;"></p>
     `;

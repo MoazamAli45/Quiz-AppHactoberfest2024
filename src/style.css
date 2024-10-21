@@ -170,7 +170,7 @@ body.dark-mode .box {
     font-size: 1rem;
   }
 
-  .btn {
+  .btn,.btn2 {
     font-size: 1.2rem;
   }
 }
@@ -189,7 +189,7 @@ body.dark-mode .box {
     font-size: 0.9rem;
   }
 
-  .btn {
+  .btn,.btn2 {
     font-size: 1rem;
   }
 }
