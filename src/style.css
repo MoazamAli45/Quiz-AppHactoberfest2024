@@ -246,3 +246,17 @@ body.dark-mode .box {
         padding: 10px 20px; /* Back to normal padding */
     }
 }
+
+#timer {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.results-box {
+  border: 1px solid #3498db;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
