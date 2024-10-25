@@ -17,6 +17,14 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff; /* Or your desired background color */
+}
 
 /* Navigation Button */
 .nav-button {
@@ -28,6 +36,8 @@ body {
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
+
+
 .nav-button:hover {
     background: linear-gradient(135deg, #0056b3, #007bff);
     transform: translateY(2px);
@@ -36,7 +46,10 @@ body {
 /* Main Section */
 main {
     margin: auto;
+    margin-top: 80px; 
 }
+
+
 
 /* Glassmorphism Effect */
 .section_10 {
