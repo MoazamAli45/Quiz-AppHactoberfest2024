@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Welcome to My Webpage</h1>
+
+    <!-- Paragraph -->
+    <p>This is a simple webpage created using HTML. HTML stands for HyperText Markup Language and is the foundation of all webpages.</p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/150" alt="Sample Image" />
+
+    <!-- Link -->
+    <p>Visit <a href="https://www.example.com">Example.com</a> for more information.</p>
+
+</body>
+</html>
