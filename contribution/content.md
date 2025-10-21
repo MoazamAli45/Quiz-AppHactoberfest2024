@@ -47,3 +47,12 @@
 - **Institution**: UET Taxila Pakistan
 - **GitHub Link**: https://github.com/LearnCode801
 
+
+
+- **Name**:  Mohtashim Niaz
+- **Role**: Comtributor
+- **Institution**: UET Taxila Pakistan
+- **GitHub Link**: https://github.com/Mohtashim2325
+a
+
+
