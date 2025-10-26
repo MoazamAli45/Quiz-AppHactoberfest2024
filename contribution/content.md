@@ -53,6 +53,12 @@
 - **Role**: Comtributor
 - **Institution**: UET Taxila Pakistan
 - **GitHub Link**: https://github.com/Mohtashim2325
-a
+
+
+
+- **Name**:  Alina Nisar
+- **Role**: Contributor
+- **Institution**: UET Taxila Pakistan
+- **GitHub Link**: https://github.com/Alina1905
 
 
